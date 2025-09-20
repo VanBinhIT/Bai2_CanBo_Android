@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtHoTen103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ tên"/>
+
+        <EditText
+            android:id="@+id/edtNgaySinh103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày sinh"/>
+
+        <EditText
+            android:id="@+id/edtGioiTinh103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giới tính"/>
+
+        <EditText
+            android:id="@+id/edtDiaChi103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa chỉ"/>
+
+        <Spinner
+            android:id="@+id/spLoai103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/loai_can_bo"/>
+
+        <EditText
+            android:id="@+id/edtThongTinRieng103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Thông tin riêng (Bậc/Ngành/Công việc)"/>
+
+        <Button
+            android:id="@+id/btnThem103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm cán bộ"/>
+
+        <EditText
+            android:id="@+id/edtTimTen103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên để tìm kiếm"/>
+
+        <Button
+            android:id="@+id/btnTim103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tìm kiếm"/>
+
+        <Button
+            android:id="@+id/btnAll103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hiển thị tất cả"/>
+
+        <TextView
+            android:id="@+id/tvTieuDe103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Danh sách"/>
+
+        <ListView
+            android:id="@+id/lvCB103"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+    </LinearLayout>
+</ScrollView>

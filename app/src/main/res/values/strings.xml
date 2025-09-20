@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">qlcb</string>
+    <string-array name="loai_can_bo">
+        <item>Công nhân</item>
+        <item>Kỹ sư</item>
+        <item>Nhân viên</item>
+    </string-array>
+
 </resources>
